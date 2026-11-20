@@ -1,0 +1,77 @@
+:root {
+  --primary: #1d4d3e;
+  --primary-dark: #123329;
+  --primary-light: #e2ede4;
+  --accent: #e87a3d;
+  --bg: #f6f3e7;
+  --text-main: #1b2a24;
+  --card-bg: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+}
+
+a {
+  color: var(--primary);
+}
+a:hover {
+  color: var(--primary-dark);
+}
+
+
+.navbar-mealdeal {
+  background-color: var(--primary-dark);
+}
+.navbar-mealdeal .navbar-brand {
+  letter-spacing: 0.03em;
+}
+.navbar-mealdeal .nav-link {
+  font-weight: 500;
+}
+.navbar-mealdeal .nav-link.active,
+.navbar-mealdeal .nav-link:hover {
+  color: #a8d5b3 !important;
+}
+
+
+.hero-mealdeal {
+  background: linear-gradient(135deg, #276652 0%, #123329 100%);
+  color: #ffffff;
+}
+
+
+.btn-primary-mealdeal {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+.btn-primary-mealdeal:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: #ffffff;
+}
+
+.btn-outline-light-mealdeal {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.btn-outline-light-mealdeal:hover {
+  background-color: #ffffff;
+  color: var(--primary-dark);
+}
+
+
+.footer-mealdeal {
+  background-color: var(--primary-dark);
+  color: rgba(255, 255, 255, 0.85);
+}
+.footer-mealdeal a {
+  color: #ffffff;
+}
+.footer-mealdeal a:hover {
+  color: #a8d5b3;
+}
