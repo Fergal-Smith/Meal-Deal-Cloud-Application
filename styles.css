@@ -1,3 +1,5 @@
+CSS
+
 :root {
   --primary: #1d4d3e;
   --primary-dark: #123329;
@@ -62,6 +64,32 @@ a:hover {
 .btn-outline-light-mealdeal:hover {
   background-color: #ffffff;
   color: var(--primary-dark);
+}
+
+
+.section-soft {
+  background-color: var(--primary-light);
+  border-radius: 1.25rem;
+}
+
+
+.card-mealdeal {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 4px solid var(--primary);
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.card-mealdeal:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent);
+}
+
+.badge-stage {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
 }
 
 
