@@ -3,9 +3,8 @@ image: node:20
 pages:
   stage: deploy
   script:
-    - npm install -g pnpm
-    - pnpm install --no-frozen-lockfile
-    - pnpm run build
+    - npm install --legacy-peer-deps
+    - npm run build
     - rm -rf public
     - mv dist public
   artifacts:
