@@ -1,4 +1,11 @@
-# MealDeal – Student Food Deals Application (CSC1057 Group F)
 
-**MealDeal** 
-is a web application prototype designed to help university students in Dublin find discounted surplus meals from local cafes, bakeries, and supermarkets, reducing student food costs and cutting daily food waste.
+  # Interactive Grocery Mobile App
+
+  This is a code bundle for Interactive Grocery Mobile App. The original project is available at https://www.figma.com/design/0d0KfnY0liZ8R5kV5771HI/Interactive-Grocery-Mobile-App.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
